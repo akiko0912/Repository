@@ -44,36 +44,43 @@
     h3{
       color: white;
       font-family:Harrington, fantasy;
-      font-size: 18px
+      font-size: 20px
     }
     h4{
       color:white;
       font-family:Harrington, fantasy;
-      font-size: 18px
+      font-size: 20px
     }
     ul li{
       color: white;
       font-family:Arial;
-      font-size: 12px
+      font-size: 15px
     }
     ol li{
       color: white;
       font-family:Arial;
-      font-size: 12px
+      font-size: 15px
     }
     p{
       color: white;
       font-family:Arial;
-      font-size: 12px
+      font-size: 15px
     }
     h5{
       color: white;
       font-family:Harrington, fantasy;
-      font-size: 18px
+      font-size: 20px
     }
     h6{
       color: white;
       font-family:Harrington, fantasy;
-      font-size: 18px
+      font-size: 20px
     }
+
+    .column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
   </style>
