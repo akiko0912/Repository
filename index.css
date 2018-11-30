@@ -117,5 +117,9 @@
     float:left;
     padding-left:20px;
   }
+  .form{
+    padding-left:250px;
+    padding-right:250px;
+  }
 
   </style>
