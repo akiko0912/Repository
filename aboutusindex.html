@@ -13,17 +13,17 @@ initial-scale=1.0">
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">ReallyGoodFood.com</a>
-        </div>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">ReallyGoodFood.com</a>
+      </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="Homepageindex.html">Home</a></li>
@@ -47,24 +47,57 @@ initial-scale=1.0">
     </div>
   </div>
 
-<div class="text-center">
-<br>
-<h5><u>About this website</u></h5>
-  <p>This website contains some recipes considered to be delicious by the creator of this website as well as associates and friends.</p>
-  <p>Our aim for this website was to create a webpage which contains different recipes from around the world.</p>
-  <p>We would really appreciate it if you could submit your own recipes that you don't mind us sharing on our website. Remember to tell us which country it originates from!</p>
-<br></br>
-<h6><u>Why and How this website was made<u></h6>
-  <p>This website was created as part of our project for a 'Coding for Girls' course.</p>
-  <p>This course took place at the University of Reading.</p>
-  <p>We started this course without any knowledge of coding but have now created our own website after only attending the sessions for 8 weeks.</p>
-  <p>This course was taught by three students at the University of Reading. They have been really helpful and friendly with explaining the step-by-step instruction on how to code. We would thoroughly recommend this course to anyone with even the slightest interest in learning how to code.</p>
-<br></br>
-  <div class="row">
-    <div class="column">
-      <img src="https://pbs.twimg.com/profile_images/914809291567255553/zFv2_bk4_400x400.jpg" alt="an icon of codeforgirls">
+  <div class="text-center">
+    <br>
+    <h5><u>About this website</u></h5>
+      <p>This website contains some recipes considered to be delicious by the creator of this website as well as associates and friends.</p>
+      <p>Our aim for this website was to create a webpage which contains different recipes from around the world.</p>
+      <br><br>
+      <p>Use the form below to submit your own favourite recipes. Remember to tell us which country it originates from!</p>
+  </div>
+
+  <form class="form">
+    <div class="form-group">
+        <label for="InputName">Name</label>
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+      </div>
+    <div class="form-group">
+      <label for="InputEmail">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Jane.Doe@email.co.uk">
     </div>
-    <div class="column">
-      <img src="https://www.reading.ac.uk/web/MultimediaFiles/uor-logo665514_41574.jpg" alt="UoR logo" >
+    <div class="form-group">
+      <label for="InputRecipe">Recipe Title</label>
+      <input type="text" class="form-control" id="InputRecipe" placeholder="Chocolate Brownies">
+    </div>
+    <div class="form-group">
+      <label for="InputCountry">Country</label>
+      <input type="text" class="form-control" id="InputCountry" placeholder="United States of America">
+    </div>
+    <div class="form-group">
+      <label for="InputFile">File input</label>
+      <input type="file" id="InputFile">
+      <p class="help-block">Upload your recipe as a Word or PDF document, or a JPG image</p>
+    </div>
+    <div id="RecipeSubmit">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
+  <div class="text-center">
+    <h6><u>Why and How this website was made<u></h6>
+      <p>This website was created as part of our project for a 'Coding for Girls' course.</p>
+      <p>This course took place at the University of Reading.</p>
+      <p>We started this course without any knowledge of coding but have now created our own website after only attending the sessions for 8 weeks.</p>
+      <p>This course was taught by three students at the University of Reading. They have been really helpful and friendly with explaining the step-by-step instruction on how to code. We would thoroughly recommend this course to anyone with even the slightest interest in learning how to code.</p>
+    <br></br>
+    <div class="row">
+      <div class="column">
+        <img src="https://pbs.twimg.com/profile_images/914809291567255553/zFv2_bk4_400x400.jpg" alt="an icon of codeforgirls">
+      </div>
+      <div class="column">
+        <img src="https://www.reading.ac.uk/web/MultimediaFiles/uor-logo665514_41574.jpg" alt="UoR logo" >
+      </div>
     </div>
   </div>
+
+</body>
