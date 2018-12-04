@@ -179,7 +179,9 @@
     }
     .form{
       padding-left:250px;
-      padding-right:250px;
+      padding-right:250px;]
     }
-
+    .form-group{
+      color:#949!important;
+    }
   </style>
