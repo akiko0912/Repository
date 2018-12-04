@@ -79,9 +79,17 @@ initial-scale=1.0">
       <p class="help-block">Upload your recipe as a Word or PDF document, or a JPG image</p>
     </div>
     <div id="RecipeSubmit">
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" id="SubmitButton" onclick="MyFunction()">Submit</button>
     </div>
   </form>
+
+  <script>
+  document.getElementById("SubmitButton").onclick = function() {myFunction()};
+
+  function myFunction() {
+      document.getElementById("SubmitButton").innerHTML = "Thank you!";
+  }
+</script>
 
   <div class="text-center">
     <h6><u>Why and How this website was made<u></h6>
