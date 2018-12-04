@@ -1,103 +1,97 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <title>Really Good Food</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="index.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.3.1.min.js"></script>
+  </head>
 
-<title>Really Good Food</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="index.css" type="text/css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-<script src="js/jquery-3.3.1.min.js"></script>
-</head>
-
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">ReallyGoodFood.com</a>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ReallyGoodFood.com</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="HomePageindex.html">Home</a></li>
+            <li><a href="index.html">Recipes</a></li>
+            <li class="active"><a href="aboutusindex.html">About Us <span class="sr-only">(current)</span></a></li>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="HomePageindex.html">Home</a></li>
-          <li><a href="index.html">Recipes</a></li>
-          <li class="active"><a href="aboutusindex.html">About Us <span class="sr-only">(current)</span></a></li>
-          </li>
-        </ul>
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+    </nav>
+    <div style="background:transparent" class="jumbotron">
+      <div class="container">
+        <h1>Welcome to ReallyGoodFood</h1>
       </div>
     </div>
-  </nav>
-
-  <div style="background:transparent" class="jumbotron">
-    <div class="container">
-      <h1>Welcome to ReallyGoodFood</h1>
-    </div>
-  </div>
-
-  <div class="text-center">
-    <br>
-    <h5><u>About this website</u></h5>
+    <div class="text-center">
+      <br>
+      <h5><u>About this website</u></h5>
       <p>This website contains some recipes considered to be delicious by the creator of this website as well as associates and friends.</p>
       <p>Our aim for this website was to create a webpage which contains different recipes from around the world.</p>
       <br><br>
       <p>Use the form below to submit your own favourite recipes. Remember to tell us which country it originates from!</p>
-  </div>
-
-  <form class="form">
-    <div class="form-group">
+    </div>
+    <form class="form">
+      <div class="form-group">
         <label for="InputName">Name</label>
         <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
       </div>
-    <div class="form-group">
-      <label for="InputEmail">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Jane.Doe@email.co.uk">
-    </div>
-    <div class="form-group">
-      <label for="InputRecipe">Recipe Title</label>
-      <input type="text" class="form-control" id="InputRecipe" placeholder="Chocolate Brownies">
-    </div>
-    <div class="form-group">
-      <label for="InputCountry">Country</label>
-      <input type="text" class="form-control" id="InputCountry" placeholder="United States of America">
-    </div>
-    <div class="form-group">
-      <label for="InputFile">File input</label>
-      <input type="file" id="InputFile">
-      <p class="help-block">Upload your recipe as a Word or PDF document, or a JPG image</p>
-    </div>
-    <div id="RecipeSubmit">
-      <button type="submit" class="btn btn-primary" id="SubmitButton" onclick="MyFunction()">Submit</button>
-    </div>
-  </form>
+      <div class="form-group">
+        <label for="InputEmail">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Jane.Doe@email.co.uk">
+      </div>
+      <div class="form-group">
+        <label for="InputRecipe">Recipe Title</label>
+        <input type="text" class="form-control" id="InputRecipe" placeholder="Chocolate Brownies">
+      </div>
+      <div class="form-group">
+        <label for="InputCountry">Country</label>
+        <input type="text" class="form-control" id="InputCountry" placeholder="United States of America">
+      </div>
+      <div class="form-group">
+        <label for="InputFile">File input</label>
+        <input type="file" id="InputFile">
+        <p class="help-block">Upload your recipe as a Word or PDF document, or a JPG image</p>
+      </div>
+      <div id="RecipeSubmit">
+        <button type="submit" class="btn btn-primary" id="SubmitButton" onclick="MyFunction()">Submit</button>
+      </div>
+    </form>
 
-  <script>
-  document.getElementById("SubmitButton").onclick = function() {myFunction()};
-
-  function myFunction() {
+    <script>
+    document.getElementById("SubmitButton").onclick = function() {myFunction()};
+    function myFunction() {
       document.getElementById("SubmitButton").innerHTML = "Thank you!";
-  }
-</script>
+    }
+    </script>
 
-  <div class="text-center">
-    <h6><u>Why and How this website was made<u></h6>
+    <div class="text-center">
+      <h6><u>Why and How this website was made<u></h6>
       <p>This website was created as part of our project for a 'Coding for Girls' course.</p>
       <p>This course took place at the University of Reading.</p>
       <p>We started this course without any knowledge of coding but have now created our own website after only attending the sessions for 8 weeks.</p>
       <p>This course was taught by three students at the University of Reading. They have been really helpful and friendly with explaining the step-by-step instruction on how to code. We would thoroughly recommend this course to anyone with even the slightest interest in learning how to code.</p>
-    <br></br>
+      <br></br>
     <div class="row">
       <div class="column">
         <img src="https://pbs.twimg.com/profile_images/914809291567255553/zFv2_bk4_400x400.jpg" alt="an icon of codeforgirls">
@@ -106,12 +100,12 @@ initial-scale=1.0">
         <img src="https://www.reading.ac.uk/web/MultimediaFiles/uor-logo665514_41574.jpg" alt="UoR logo" >
       </div>
     </div>
-  </div>
+    </div>
 
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <footer class="page-footer">
-      <div class="footer-copyright text-center py-3">© 2018 Copyright: Gemma Bullard & Akiko Takedo</div>
-    </footer>
-  </nav>
-
-</body>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <footer class="page-footer">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: Gemma Bullard & Akiko Takeda</div>
+      </footer>
+    </nav>
+  </body>
+</html>
