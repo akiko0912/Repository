@@ -5,7 +5,12 @@
       padding-bottom:50px;
       padding-top:20px;
     }
-    .navbar{
+    .navbar-fixed-top{
+      background-color:#509;
+      border-color:#309;
+      border-width:medium;
+    }
+    .navbar-fixed-bottom{
       background-color:#509;
       border-color:#309;
       border-width:medium;
@@ -22,6 +27,56 @@
     }
     body{
       background-color:#114;
+    }
+    .p1{
+      color:white;
+      font-size:30px;
+      padding-top:50px;
+      font-family:Harrington, fantasy;
+    }
+    .p2{
+      color:white;
+      font-size:20px;
+      padding-top:30px;
+      font-family:Harrington, fantasy;
+    }
+    .container img {
+      position:relative;
+      padding-right:10px;
+      padding-left:50px;
+      padding-bottom:100px;
+      padding-top:20px;
+    }
+    #BrownieButton {
+      position: absolute;
+      top: 115%;
+      left: 31%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #283;
+      color: white;
+      font-size: 14px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    #SpareRibsButton {
+      position: absolute;
+      top: 114%;
+      left: 86%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #609;
+      color: white;
+      font-size: 14px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .container .btn:hover {
+      background-color: black;
     }
     #p1{
       color:white;
@@ -74,6 +129,12 @@
       font-size: 15px
       text-align:justify;
     }
+    .Instructions1{
+      padding-left:450px;
+    }
+    .Instructions2{
+      padding-left:410px;
+    }
     .bulletpoint{
       padding-left:450px;
     }
@@ -81,7 +142,6 @@
       color: white;
       font-family:Arial;
       font-size: 15px
-
     }
     h5{
       color: white;
@@ -93,33 +153,32 @@
       font-family:Harrington, fantasy;
       font-size: 20px
     }
-
     .column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-#Brownies h2{
-  padding-left:20px;
-}
-  #Brownies img{
-    height:500px;
-    width:400px;
-    float:left;
-    padding-left:20px;
-  }
-  #SpareRibs h2{
-    padding-left:20px;
-  }
-  #SpareRibs img{
-    height:400px;
-    width:400px;
-    float:left;
-    padding-left:20px;
-  }
-  .form{
-    padding-left:250px;
-    padding-right:250px;
-  }
+      float: left;
+      width: 50%;
+      padding: 20px;
+    }
+    #Brownies h2{
+      padding-left:20px;
+    }
+    #Brownies img{
+      height:500px;
+      width:400px;
+      float:left;
+      padding-left:20px;
+    }
+    #SpareRibs h2{
+      padding-left:20px;
+    }
+    #SpareRibs img{
+      height:400px;
+      width:400px;
+      float:left;
+      padding-left:20px;
+    }
+    .form{
+      padding-left:250px;
+      padding-right:250px;
+    }
 
   </style>
