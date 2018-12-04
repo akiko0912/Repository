@@ -54,13 +54,27 @@
         padding-bottom:100px;
         padding-top:20px;
       }
-      .container .btn {
+      #BrownieButton {
         position: absolute;
         top: 115%;
         left: 31%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         background-color: #283;
+        color: white;
+        font-size: 14px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      #SpareRibsButton {
+        position: absolute;
+        top: 114%;
+        left: 86%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #609;
         color: white;
         font-size: 14px;
         padding: 12px 24px;
@@ -116,13 +130,15 @@
     </div>
   </div>
 
-  <p class="indented" id="p1">Hi everyone! Welcome to ReallyGoodFood, the ultimate website to find all your favourite recipes from across the globe.</p>
-  <p class="indented" id="p2">To find your perfect recipe, click the name of the food you want on the map below:</p>
-
+  <div class="indented">
+    <p id="p1">Hi everyone! Welcome to ReallyGoodFood, the ultimate website to find all your favourite recipes from across the globe.</p>
+    <p id="p2">To find your perfect recipe, click the name of the food you want on the map below:</p>
+  </div>
 
   <div class="container">
     <img src="https://cdn.mapsinternational.co.uk/pub/media/catalog/product/cache/afad95d7734d2fa6d0a8ba78597182b7/w/o/world-wall-map-political-without-flags_wm00001_h.jpg" class="img-responsive" alt="The World Map" Name="WorldMap">
-    <button class="btn"><a href="index.html" img="https://prettysimplesweet.com/wp-content/uploads/2014/02/Baked-Brownies-3.jpg">Brownies</a></button>
+    <button class="btn" id="BrownieButton"><a href="index.html" >Brownies</a></button>
+    <button class="btn" id="SpareRibsButton"><a href="index.html">Spare Ribs</a></button>
   </div>
 
 </body>
